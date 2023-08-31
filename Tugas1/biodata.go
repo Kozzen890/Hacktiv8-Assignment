@@ -13,7 +13,7 @@ import (
 
 func json_Callback() {
 	if len(os.Args) != 2 {
-		fmt.Println("Usage: go run main.go <Student_code>")
+		fmt.Println("Usage: go run biodata.go <Student_code>")
 		return
 	}
 	inputCode := os.Args[1]
